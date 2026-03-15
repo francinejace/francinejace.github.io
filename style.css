@@ -10,7 +10,7 @@ body {
     background: white;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -34,6 +34,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+#questionCounter {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
 #progressBar {
     width: 70%;
     height: 10px;
@@ -45,6 +51,7 @@ h1 {
     height: 100%;
     width: 0%;
     background: #4CAF50;
+    transition: width 0.3s ease;
 }
 
 button {
@@ -84,7 +91,7 @@ button:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .popup-content {
@@ -94,4 +101,20 @@ button:hover {
     margin: 200px auto;
     border-radius: 6px;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
 }
