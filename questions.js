@@ -271,7 +271,7 @@ const questions = [
     ],
     answer: [0],
     explanation: "The project manager coordinates project work."
-}
+},
 
 {
     type: "single",
@@ -531,7 +531,7 @@ const questions = [
     ],
     answer: [0],
     explanation: "Workshops help teams collaboratively identify potential risks."
-}
+},
 
 {
     type: "single",
