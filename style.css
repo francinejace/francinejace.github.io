@@ -210,6 +210,16 @@ label.wrong {
     border-radius: 4px;
 }
 
+body.dark-mode label.correct {
+    background: #4CAF50;
+    color: white;
+}
+
+body.dark-mode label.wrong {
+    background: #e74c3c;
+    color: white;
+}
+
 /* POPUP TEXT FIX */
 
 body.dark-mode .popup-content {
