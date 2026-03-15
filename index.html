@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>PMI Reviewer Quiz</title>
+    <title>PMI Certification Reviewer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,7 +11,7 @@
 
     <div class="container">
 
-        <h1>PMI Certification Reviewer</h1>
+        <h1>PMI Certification Quiz Reviewer</h1>
 
         <div class="mode-select">
             <button onclick="startQuiz('review')">Reviewer Mode</button>
@@ -21,6 +21,7 @@
         <div id="quizArea" style="display:none;">
 
             <div class="topbar">
+
                 <div id="progressBar">
                     <div id="progress"></div>
                 </div>
@@ -28,6 +29,7 @@
                 <div id="scoreBox">
                     Score: 0
                 </div>
+
             </div>
 
             <div id="questionBox"></div>
@@ -42,12 +44,10 @@
     </div>
 
     <div id="popup" class="popup">
-
         <div class="popup-content">
             <p id="explanationText"></p>
             <button onclick="closePopup()">Close</button>
         </div>
-
     </div>
 
     <script src="questions.js"></script>
