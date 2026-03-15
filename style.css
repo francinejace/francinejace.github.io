@@ -165,6 +165,37 @@ body.dark-mode #progressBar {
     background: #444;
 }
 
+/* ANSWER COLORS */
+
+.correct {
+    background: #4CAF50 !important;
+    color: white !important;
+}
+
+.wrong {
+    background: #e74c3c !important;
+    color: white !important;
+}
+
+/* DARK MODE BUTTONS */
+
+body.dark-mode button {
+    background: #3a3a3a;
+    color: white;
+}
+
+/* KEEP ANSWER COLORS IN DARK MODE */
+
+body.dark-mode .correct {
+    background: #4CAF50 !important;
+    color: white !important;
+}
+
+body.dark-mode .wrong {
+    background: #e74c3c !important;
+    color: white !important;
+}
+
 /* POPUP TEXT FIX */
 
 body.dark-mode .popup-content {
